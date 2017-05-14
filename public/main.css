@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    font: 14px/1.1 sans-serif;
+    margin: 0 auto
+}
+
+#wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#url, #go{
+    padding: 5px;
+    font-size: 2em;
+    border: none;
+    border-bottom: 2px solid #c9f1f1;
+}
+
+#go{
+    background: transparent;
+    border-radius: 2px 2px 0 2px;
+    transition: background 250ms ease-in;
+}
+
+#go:hover{
+    background: rgba(201, 241, 241, 0.35);
+}
+
+#result{
+    padding: 15px;
+}
